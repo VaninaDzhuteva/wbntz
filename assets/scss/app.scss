@@ -1,2 +1,5 @@
-@import 'variables.scss';
-@import 'base.scss';
+@import 'variables';
+@import 'base';
+@import 'layouts/header';
+@import 'layouts/navigation';
+@import 'components/buttons';

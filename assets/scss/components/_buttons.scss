@@ -1,0 +1,65 @@
+.language-btn {
+    margin-right: 20px;
+    padding: 6px;
+    color: $color-brown;
+    text-transform: uppercase;
+    border-radius: 14.5px;
+
+    &:hover {
+        -webkit-animation: bounce 1.5s;
+        animation: bounce 1.5s;
+        background: $color-yellow;
+        font-weight: 600;
+    }
+}
+
+.language-btn.active {
+    background: $color-yellow;
+    font-weight: 600;
+}
+
+.reservation-btn {
+    height: 29px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    color: $color-brown;
+    border: 1px solid $color-brown;
+    border-radius: 14.5px;
+    background: linear-gradient(to left, $color-white 50%, $color-brown 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition:all 1.5s ease;
+
+    &:hover {
+        background-position:left bottom;
+        color: $color-white;
+    }
+}
+
+@-webkit-keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    80% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    80% {
+        transform: translateY(-5px);
+    }
+}

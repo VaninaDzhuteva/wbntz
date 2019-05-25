@@ -1,0 +1,42 @@
+@import '../variables';
+
+// Header
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 98px;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.lang-menu {
+    display: flex;
+}
+
+.logo img{
+    position: absolute;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+
+    .seperator {
+        height: 38px;
+        margin: 0 5px 0 13px;
+        border-right: 1px dashed $color-brown;
+    }
+
+    .call-info {
+        display: flex;
+        align-items: center;
+        color: $color-brown;
+
+        .phone-number {
+            font-weight: 600;
+            line-height: 1.21;
+        }
+    }
+}
