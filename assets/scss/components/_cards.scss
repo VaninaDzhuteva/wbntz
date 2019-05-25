@@ -1,0 +1,14 @@
+.offer-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 1001px;
+    margin: 0 auto;
+
+    .card {
+        width: 475px;
+        height: 412px;
+        padding: 16px;
+        box-shadow: 0 0 51px 0 rgba(29, 25, 44, 0.13);
+        background: $color-white;
+    }
+}

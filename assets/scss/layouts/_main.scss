@@ -1,0 +1,120 @@
+@import '../variables';
+
+main {
+    background: $color-light-yellow;
+}
+main .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1001px;
+    margin: 0 auto;
+    padding-top: 44px;
+    padding-bottom: 65px;
+}
+
+.content .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+    height: 51px;
+    margin-bottom: 22px;
+    background: url('/assets/images/under-splash.png') no-repeat center center;
+    text-transform: uppercase;
+    font-size: 20.5px;
+    font-weight: 900;
+    line-height: 1.05;
+}
+
+.content p {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.img-container {
+    position: relative;
+    height: 203px;
+}
+
+.img-container__hover {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity .2s;
+    opacity: 0;
+    background-color: #000000;
+}
+
+.img-container:hover .img-container__hover {
+    opacity: 0.5;
+}
+
+.img-container__hover .text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.06;
+    text-transform: uppercase;
+    color: $color-white;
+}
+
+.img-container img {
+    width: 463px;
+    height: 203px;
+}   
+
+.info-container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info-container .text {
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.06;
+    text-transform: uppercase;
+    color: $color-brown;
+    border-bottom: 2px solid $color-brown;
+}
+
+.info-container img {
+    margin-left: 10px;
+}
+
+.info-container p {
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.invocation {
+    width: 100%;
+    height: 305px;
+    background: url('/assets/images/stg-7754.jpg') no-repeat center center;
+}
+
+.quote {
+    background: $color-orange;
+}
+
+.quote-info {
+    display: flex;
+    max-width: 1001px;
+    margin: 0 auto;
+}
+
+.quote-info img {
+    border-radius: 50%;
+}
