@@ -8,6 +8,7 @@
   -webkit-box-sizing: border-box; }
 
 body {
+  position: relative;
   font-size: 16px;
   font-family: 'Roboto', sans-serif; }
 
@@ -304,7 +305,7 @@ span.icon {
     .invocation {
       height: auto;
       text-align: justify;
-      background: #412d26; } }
+      background: #624638; } }
 
 .invocation .column {
   padding-top: 40px; }
@@ -320,6 +321,22 @@ span.icon {
 .quote {
   background: #ebba7c;
   padding: 20px 0; }
+  .quote::before {
+    content: "\e978";
+    position: absolute;
+    font-family: 'icomoon';
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 178px;
+    color: #fff;
+    opacity: 0.1; }
+    @media screen and (max-width: 1056px) {
+      .quote::before {
+        top: 78%; } }
+    @media screen and (max-width: 767px) {
+      .quote::before {
+        top: 70%; } }
 
 .quote .column {
   display: flex;
@@ -517,7 +534,7 @@ footer li a {
     background: #fecc00;
     font-weight: 600; }
 
-.language-btn.active {
+.active {
   background: #fecc00;
   font-weight: 600; }
 
@@ -559,6 +576,9 @@ footer li a {
   margin-top: 45px;
   box-shadow: 0 0 51px 0 rgba(29, 25, 44, 0.13);
   background: #ffffff; }
+  @media screen and (max-width: 767px) {
+    .card {
+      height: 460px; } }
   @media screen and (max-width: 630px) {
     .card {
       width: auto;

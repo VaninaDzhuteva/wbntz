@@ -6,6 +6,10 @@
         box-shadow: 0 0 51px 0 rgba(29, 25, 44, 0.13);
         background: $color-white;
 
+        @media screen and (max-width : 767px) {
+          height: 460px;;
+        }
+
         @media screen and (max-width : 630px) {
           width: auto;
           height: 460px;;

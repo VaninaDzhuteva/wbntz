@@ -188,7 +188,7 @@ span.icon {
     @media screen and (max-width : 767px) {
         height: auto;
         text-align: justify;
-        background: $color-brown;
+        background: #624638;
     }
 }
 
@@ -210,6 +210,26 @@ span.icon {
 .quote {
     background: $color-orange;
     padding: 20px 0;
+
+    &::before {
+        content: "\e978";
+        position: absolute;
+        font-family: 'icomoon';
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 178px;
+        color: #fff;
+        opacity: 0.1;
+
+        @media screen and (max-width : 1056px) {
+            top: 78%;
+        }
+
+        @media screen and (max-width : 767px) {
+            top: 70%;
+        }
+    }
 }
 
 .quote .column {

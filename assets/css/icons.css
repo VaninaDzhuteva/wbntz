@@ -69,6 +69,7 @@
 .icon-envelop:before {
   content: "\e945";
   font-size: 18px;
+  color: #412d26;
 }
 .icon-quotes-right:before {
   content: "\e978";
