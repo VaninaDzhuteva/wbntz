@@ -1,5 +1,5 @@
 // Toggle responsive navigation on small screens
-function toggleNav(e) {
+function toggleNav() {
     const nav = document.querySelector('.nav');
 
     if (nav.className === 'nav') {
@@ -7,8 +7,6 @@ function toggleNav(e) {
     } else {
         nav.className = 'nav';
     }
-
-    e.preventDefault();
 }
 
 // Toggle active class
