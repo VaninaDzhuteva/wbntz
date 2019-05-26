@@ -14,51 +14,65 @@
     <body>
         <!-- Header -->
         <header>
-            <div class="header-info">
-                <div class="lang-menu">
-                    <a href="#" class="language-btn active">Bg</a>
-                    <a href="#" class="language-btn">En</a>
-                    <a href="#" class="language-btn">Ru</a>
-                </div>
-                <div class="logo">
-                    <img src="assets/images/interpark.png" alt="Interpark logo">
-                </div>
+            <div class="container">
+                <div class="row">
+                    <div class="header-info">
+                        <div class="lang-menu">
+                            <a href="#" class="language-btn active">Bg</a>
+                            <a href="#" class="language-btn">En</a>
+                            <a href="#" class="language-btn">Ru</a>
+                        </div>
+                        <div class="logo">
+                            <img src="assets/images/interpark.png" alt="Interpark logo">
+                        </div>
 
-                <div class="contacts">
-                    <a href="#" class="reservation-btn">Резервирай тук</a>
-                    <div class="seperator"></div>
-                    <div class="call-info">
-                        <span class="icon-phone"></span>
-                        <span class="phone-number">или на тел.: +359 886 565 455</span>
+                        <div class="contacts">
+                            <a href="#" class="reservation-btn">Резервирай тук</a>
+                            <div class="seperator"></div>
+                            <div class="call-info">
+                                <span class="icon-phone"></span>
+                                <span class="phone-number">или на тел.: +359 886 565 455</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- Navigation -->
             <nav>
-                <div class="nav">
-                    <ul>
-                        <li>
-                            <a href="#" class="nav-item">Начало</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-item">За хотела</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-item">Настаняване</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="#" class="nav-item">Оферти</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-item">Свободно време</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-item">Контакти</a>
-                        </li>
-                    </ul>
+                <div class="container">
+                    <div class="row">
+                            <div class="toggle-navigation" onclick="toggleNav()">
+                                    <span class="icon-menu"></span>
+                                </div>  
+                        <div class="nav">
+                            <ul>
+                                <li>
+                                    <a href="#" class="nav-item">Начало</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-item">За хотела</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-item">Настаняване</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="#" class="nav-item">Оферти</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-item">Свободно време</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-item">Контакти</a>
+                                </li>
+                            
+                            </ul>
+                                              
+                        </div>
+                    </div>
                 </div>
+
             </nav>
             <!-- Image slider -->
             <div class="slider">
@@ -319,6 +333,7 @@
             </div>
         </footer>
 
+        <script src="assets/app.js"></script>
     </body>
 
 </html>

@@ -6,6 +6,10 @@ nav {
     justify-content: space-between;
     height: 59px;
     background: $color-brown;
+
+    @media screen and (max-width : 768px) {
+        height: auto;
+    }
 }
 
 .nav {
@@ -13,10 +17,18 @@ nav {
     justify-content: space-between;
     width: 1440px;
     margin: 0 auto;
+
+    @media screen and (max-width : 768px) {
+        display: block;
+    }
 }
 
 .nav ul {
     display: flex;
+
+    @media screen and (max-width : 768px) {
+        display: block;
+    }
 }
 
 ul .nav-item {
@@ -34,4 +46,38 @@ ul .nav-item {
             color: $color-yellow;
             border-bottom: 2px solid $color-yellow;
         }
+
+        @media screen and (max-width : 992px) {
+            margin-right: 35px;
+            font-size: 13px;
+        }
+
+        @media screen and (max-width : 768px) {
+            width: 100%;
+            margin-bottom: 15px;
+            display: none;
+        }
+}
+
+.toggle-navigation {
+    display: none;
+
+    @media screen and (max-width : 768px) {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav.responsive {
+        position: relative;
+        margin-top: 15px;
+    }
+    .nav.responsive .nav-item{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
 }

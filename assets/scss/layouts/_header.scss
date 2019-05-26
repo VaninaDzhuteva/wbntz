@@ -5,19 +5,46 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     height: 98px;
-    max-width: 1440px;
     margin: 0 auto;
     font-size: 14px;
+
+    @media screen and (max-width : 768px) {
+        flex-direction: column;
+        height: auto;
+    }
 }
 
 .lang-menu {
     display: flex;
 }
 
+.logo {
+    @media screen and (max-width : 768px) {
+        margin-bottom: 30px;
+    }
+}
+
 .logo img{
     position: absolute;
-    top: 20px;
+    top: 60px;
+
+    @media screen and (max-width : 1200px) {
+        top: 80px;
+        width: 175px;
+    }
+
+    @media screen and (max-width : 992px) {
+        top: 80px;
+        width: 160px;
+    }
+
+    @media screen and (max-width : 768px) {
+        position: relative;
+        top: 20px;
+        width: 120px;
+    }
 }
 
 .contacts {
@@ -33,11 +60,26 @@
     .call-info {
         display: flex;
         align-items: center;
+        width: 140px;
         color: $color-brown;
 
         .phone-number {
             font-weight: 600;
             line-height: 1.21;
+        }
+    }
+
+    @media screen and (max-width : 435px) {
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+
+        .seperator {
+            display: none;
+        }
+
+        .call-info {
+            margin-top: 15px;
         }
     }
 }
