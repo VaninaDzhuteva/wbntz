@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('/../fonts/icomoon.eot?v7x2kc');
-  src:  url('/../fonts/icomoon.eot?v7x2kc#iefix') format('embedded-opentype'),
-    url('/../fonts/icomoon.ttf?v7x2kc') format('truetype'),
-    url('/../fonts/icomoon.woff?v7x2kc') format('woff'),
-    url('/../fonts/icomoon.svg?v7x2kc#icomoon') format('svg');
+  src:  url('/../fonts/icomoon.eot?tnzks6');
+  src:  url('/../fonts/icomoon.eot?tnzks6#iefix') format('embedded-opentype'),
+    url('/../fonts/icomoon.ttf?tnzks6') format('truetype'),
+    url('/../fonts/icomoon.woff?tnzks6') format('woff'),
+    url('/../fonts/icomoon.svg?tnzks6#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,34 +25,45 @@
 }
 
 .icon-air-conditioner:before {
-  content: "\e902";
+  content: "\e901";
+  font-size: 35px;
 }
 .icon-breakfast:before {
-  content: "\e903";
+  content: "\e902";
+  font-size: 44px;
 }
 .icon-double-bed:before {
-  content: "\e904";
+  content: "\e903";
+  font-size: 37px;
 }
-.icon-eye1:before {
-  content: "\e905";
+.icon-eye:before {
+  content: "\e904";
   color: #fff;
-  font-size: 39px;
+  font-size: 35px;
 }
 .icon-lounge-chair:before {
-  content: "\e906";
+  content: "\e905";
+  font-size: 47px;
 }
 .icon-mail:before {
-  content: "\e901";
+  content: "\e900";
 }
 .icon-phone:before {
-  content: "\e907";
+  content: "\e906";
+  font-size: 25px;
 }
 .icon-place:before {
-  content: "\e908";
+  content: "\e907";
 }
 .icon-pool:before {
+  content: "\e908";
+  font-size: 40px;
+}
+.icon-sofa:before {
   content: "\e909";
+  font-size: 35px;
 }
 .icon-tv:before {
   content: "\e90a";
+  font-size: 35px;
 }

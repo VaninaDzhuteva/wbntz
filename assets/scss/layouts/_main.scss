@@ -1,5 +1,5 @@
 @import '../variables';
-
+// intro section
 main {
     background: $color-light-yellow;
 }
@@ -8,13 +8,12 @@ main .content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1001px;
-    margin: 0 auto;
     padding-top: 44px;
-    padding-bottom: 65px;
 }
 
-.content .heading {
+// same style for main content and invocation section
+.content .heading,
+.invocation .heading {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,9 +27,19 @@ main .content {
     line-height: 1.05;
 }
 
-.content p {
+.content .intro {
     text-align: center;
     margin-bottom: 48px;
+}
+
+// cards content
+.offer-cards {
+    padding-bottom: 65px;
+}
+
+.offer-cards .column {
+    display: flex;
+    justify-content: center;
 }
 
 .img-container {
@@ -48,13 +57,14 @@ main .content {
     left: 0;
     width: 100%;
     height: 100%;
-    transition: opacity .2s;
+    transition: background-color .2s, opacity .2s;
+    background-color: rgba(0, 0, 0, 0);
     opacity: 0;
-    background-color: #000000;
 }
 
 .img-container:hover .img-container__hover {
-    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
 }
 
 .img-container__hover .text {
@@ -93,28 +103,72 @@ main .content {
 
 .info-container p {
     margin-top: 13px;
+    margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.19;
     text-align: justify;
     color: rgba(0, 0, 0, 0.6);
 }
 
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// section pool image with text 
 .invocation {
-    width: 100%;
+    max-width: 100%;
     height: 305px;
     background: url('/assets/images/stg-7754.jpg') no-repeat center center;
 }
 
+.invocation .column {
+    padding-top: 40px;  
+}
+
+.invocation p {
+    line-height: 1.56;
+    color: rgba(255, 241, 225, 0.7);
+    margin-bottom: 40px;
+}
+
+// quote section
 .quote {
     background: $color-orange;
+    padding: 20px 0;
 }
 
-.quote-info {
+.quote .column {
     display: flex;
-    max-width: 1001px;
-    margin: 0 auto;
+    align-items: center;
 }
 
-.quote-info img {
+.quote .profile-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 96px;
+    height: 96px;
+    margin-right: 50px;
+    box-shadow: 0 0 9px 0 rgba(48, 29, 29, 0.56);
+    background-color: #ffffff;
     border-radius: 50%;
+}
+
+.quote img {
+    border-radius: 50%;
+}
+
+.quote-text {
+    flex: 11;
+}
+
+.quote-text .name {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.06;
+    letter-spacing: -0.4px;
+    padding-bottom: 13px;
 }
