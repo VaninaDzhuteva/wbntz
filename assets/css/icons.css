@@ -39,7 +39,7 @@
 .icon-eye:before {
   content: "\e904";
   color: #fff;
-  font-size: 19px;
+  font-size: 30px;
 }
 .icon-lounge-chair:before {
   content: "\e905";
@@ -81,11 +81,6 @@
   cursor: pointer;
 }
 
-@media screen and (min-width : 768px) {
-  .icon-eye:before {
-    font-size: 13px;
-  }
-}
 
 @media screen and (max-width : 768px) {
   .icon-eye:before {

@@ -192,14 +192,6 @@ span.icon {
     }
 }
 
-.invocation .column {
-    padding-top: 40px;  
-
-    @media screen and (max-width : 992px) {
-        padding-top: 0;
-    }
-}
-
 .invocation p {
     line-height: 1.56;
     color: rgba(255, 241, 225, 0.7);
