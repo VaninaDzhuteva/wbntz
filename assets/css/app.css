@@ -377,7 +377,7 @@ span.icon {
 .invocation {
   max-width: 100%;
   height: 305px;
-  background: url("../images/stg-7754.jpg") no-repeat center center;
+  background: url("./images/stg-7754.jpg") no-repeat center center;
 }
 @media screen and (max-width: 767px) {
   .invocation {
