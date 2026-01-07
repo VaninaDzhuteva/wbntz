@@ -20,7 +20,7 @@ main .content {
     width: 275px;
     height: 51px;
     margin-bottom: 22px;
-    background: url('./assets/images/under-splash.png') no-repeat center center;
+    background: url('/assets/images/under-splash.png') no-repeat center center;
     text-transform: uppercase;
     font-size: 20.5px;
     font-weight: 900;
@@ -183,7 +183,7 @@ span.icon {
 .invocation {
     max-width: 100%;
     height: 305px;
-    background: url('./assets/images/stg-7754.jpg') no-repeat center center;
+    background: url('/assets/images/stg-7754.jpg') no-repeat center center;
 
     @media screen and (max-width : 767px) {
         height: auto;
