@@ -377,7 +377,7 @@ span.icon {
 .invocation {
   max-width: 100%;
   height: 305px;
-  background: url("../assets/images/stg-7754.jpg") no-repeat center center;
+  background: url("../images/stg-7754.jpg") no-repeat center center;
 }
 @media screen and (max-width: 767px) {
   .invocation {
@@ -483,7 +483,7 @@ footer .header {
   align-items: center;
   height: 60px;
   margin-bottom: 22px;
-  background: url("../assets/images/under-splash.png") no-repeat center center;
+  background: url("../images/under-splash.png") no-repeat center center;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 900;
